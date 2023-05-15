@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100;400&display=swap');
+    
+}
+.navHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 15vh;
+    box-shadow: 0px 2px 2px 0px rgba(3, 3, 3, 0.199);
+    position: fixed;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    text-decoration: none;
+    color: #b0a7a7;
+    font-weight: 700;
+    font-size: 20px;
+}
+ul li a i{
+    padding-left: 5px;
+}
+ button i{
+padding-left: 10px;
+}
+ button{
+   padding: 25px 40px;
+    border: 1px solid #6FC247;
+    outline: none;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #6FC247;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    white-space: nowrap;
+}
+.world{
+    
+    font-weight: 700;
+    font-size: 7rem;
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 7px ;
+    color: #000;
+    line-height: 1.5;
+}
+.valut{
+    padding-top: .5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    font-size: 2.3rem;
+    line-height: 2;
+}
+#login{
+    margin-top: 10em;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 3em;
+}
+#sign{
+    background-color: transparent;
+    border: 3px solid #6FC247;
+    color: #6FC247;
+}
+.image4-container{
+    margin-top: 8em; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.image4-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+#trusted {
+
+font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+
+    text-align: center;
+
+    color: #373737;
+}
+
+#global {
+    padding-top: .5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 7px;
+
+}
+
+
+/* images section */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container div{
+    background-color: #F9F9F9;
+    margin: 25px 30px;
+
+}
+.color img{
+    padding: 10px 20px;
+}
+
+
+ /* valutico section */
+
+
+ .val{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 40px;
+    background-color: #000;
+    color: white;
+ }
+ .val .valu1{
+    width: 68%;
+   
+ }
+.val .valu1 h1{
+    font-size: 24px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+ .val .valu2{
+    margin-top: 60px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+   
+    width: 68%;
+ }
+ .val .valu2 .why{
+   
+    width: 40%;
+    height: 15vh;
+
+ }
+.valu2 .why .h1{
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+
+.container-last{
+    display: flex;
+}
+.last-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin :20px 50px;
+}
+.last-text h1{
+    font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+}
+.last-text p{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+       padding-left: 50px;
+     
+        color: #111111;
+}
+.last-text h2{
+font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+padding-left: 50px;
+    color: #111111;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.last-text h3{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+       margin-bottom: 25px;
+}
+
+
+#lastbtn{
+        height: 5vh;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+}
